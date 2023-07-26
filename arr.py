@@ -1,0 +1,12 @@
+import numpy as np
+a= np.array([1,2,4])
+b=np.array([2,3,5])
+print("First array:{}".format(a))
+print("Second array:{}".format(b))
+print("After multiplication {}".format(np.multiply(a,b)))
+print("After divison:{}".format(np.divide(a,b)))
+print("After addition:{}".format(np.add(a,b)))
+print("After subtraction:{}".format(np.subtract(a,b)))
+c=np.array([23,2,5])
+print("Before sorting:{}".format(c))
+print("After sorting:{}".format(np.sort(c)))
